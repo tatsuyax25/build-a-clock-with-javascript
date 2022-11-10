@@ -57,3 +57,9 @@ body {
     height: 45%;
     background-color: red;
 }
+
+.clock .hand.minute {
+    width: 7px;
+    height: 40%;
+    background-color: black;
+}
