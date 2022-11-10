@@ -51,3 +51,9 @@ body {
     z-index: 10;
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
+
+.clock .hand.second {
+    width: 3px;
+    height: 45%;
+    background-color: red;
+}
