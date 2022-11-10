@@ -11,3 +11,7 @@ function setClock() {
     const minutesRation = (secondsRation + currentDate.getMinutes()) / 60
     const hoursRation = (minutesRation + currentDate.getHours()) / 12
 }
+
+function setRotation(element, rotationRatio) {
+    element.style.setProperty('--rotation', rotationRatio * 360)
+}
